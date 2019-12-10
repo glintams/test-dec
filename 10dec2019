@@ -1,0 +1,299 @@
+    1  sudo apt-get install unrar
+    2  python
+    3  gcc gc.c
+    4  ./a.out
+    5  gcc gc.c
+    6  ./a.out
+    7  gcc gc.c
+    8  ./a.out
+    9  gcc gc.c
+   10  ./a.out
+   11  gcc gc.c
+   12  python
+   13  sudo gedit ~/.bashrc
+   14  pwd
+   15  ls
+   16  wget https://repo.anaconda.com/archive/Anaconda3-5.2.0-Linux-x86_64.sh
+   17  # sh Anaconda3-5.2.0-Linux-x86_64.sh
+   18  sh Anaconda3-5.2.0-Linux-x86_64.sh
+   19  sudo -s
+   20  conda list
+   21  which python
+   22  python -v
+   23  python -V
+   24  conda update python
+   25  rm -rf /usr/local/anaconda/
+   26  export PATH="/usr/local/anaconda/bin:SPATH"
+   27  anaconda
+   28  open anaconda
+   29  cd Documents/python
+   30  cd Documents/Python
+   31  cd Documents/Python/
+   32  jupyter notebook
+   33  anaconda-navigator
+   34  pip install msgpack
+   35  pip install --upgrade pip
+   36  python version
+   37  python 
+   38  sudo apt-get install mpg123
+   39  pip install geocoder
+   40  pip install gTTS
+   41  python sound_generation.py 
+   42  python sound_generation.py 
+   43  cd 
+   44  cd home
+   45  cd desktop
+   46  spyder
+   47  ifconfig
+   48  python sound_generation.py 
+   49  python
+   50  python sound_generation.py 
+   51  apt-cache vokoscreen
+   52  apt-cache search vokoscreen
+   53  sudo apt-get remove vokoscreen
+   54  cd Downloads/
+   55  ls
+   56  sudo dpkg -i code_1.39.2-1571154070_amd64.deb
+   57  brew install node
+   58  sudo apt-get install linuxbrew-wrapper
+   59  brew install node
+   60  sudo apt install curl
+   61  curl -sL https://deb.nodesource.com/setup_10.x | sudo bash -
+   62  sudo apt-get install -y nodejs
+   63  node --version
+   64  npm -v
+   65  node -v
+   66  sudo npm install n
+   67  sudo n stable
+   68  npm -v
+   69  node -v
+   70  pwd
+   71  ls
+   72  cd usr
+   73  cd usr/
+   74  cd /
+   75  cd usr/
+   76  ls
+   77  cd ..
+   78  ls
+   79  cd home
+   80  /
+   81  cd ..
+   82  pwd
+   83  cd /
+   84  cd mnt
+   85  ls
+   86  cd ..
+   87  cd opt/
+   88  ls
+   89  cd ..
+   90  cd var
+   91  ls
+   92  cd ..
+   93  cd proc/
+   94  ls
+   95  cat meminfo
+   96  cat locks
+   97  cat devices
+   98  cat cpuinfo
+   99  lscpu
+  100  cd ..
+  101  cd test/
+  102  cd test
+  103  cd home
+  104  mkdir 1
+  105  cd 1
+  106  ls
+  107  rmdir 1
+  108  cd ..
+  109  rmdir 1
+  110  mkdir 1
+  111  rmdir 1
+  112  mkdir 1
+  113  cd 1
+  114  mkdir 2
+  115  cd 2
+  116  ../../
+  117  cd ../../
+  118  cd 1
+  119  ls
+  120  touch f.txt
+  121  ls
+  122  cd ..
+  123  rmdir 1
+  124  rm -r 1
+  125  mkdir 1
+  126  cd 1
+  127  touch f.txt
+  128  mkdir 2
+  129  ls
+  130  cp f.txt f1.txt
+  131  ls
+  132  mv f.txt r.txt
+  133  ls
+  134  cp f.txt f1.txt
+  135  cp r.txt f1.txt
+  136  mkdir fold
+  137  mv *.txt fold/
+  138  ls
+  139  cd fold
+  140  ls
+  141  cd ..
+  142  cp -r fold fold2
+  143  ls
+  144  cp -r fold fold2 fold3
+  145  cp -r fold fold3
+  146  ls
+  147  rmdir fold3
+  148  rm -r fold3
+  149  ls
+  150  pwd
+  151  cd ~/1
+  152  cd ~/usr/bin
+  153  cd /usr/bin
+  154  cd ~/1
+  155  pwd
+  156  pushd .
+  157  cd /usr/bin
+  158  pushd .
+  159  cd 
+  160  popd
+  161  vim r.txt
+  162  ls -al
+  163  cd fold
+  164  ls
+  165  ls -al
+  166  chmod u+x f1.txt
+  167  ls -al
+  168  chmod u-x f1.txt
+  169  ls -al
+  170  chmod u-r f1.txt
+  171  cat f1.txt
+  172  chmod u+r f1.txt
+  173  cat f1.txt
+  174  cd ..
+  175  cd
+  176  sudo apt-get install vim
+  177  vim f1.txt
+  178  cd
+  179  cd class 1
+  180  cd Desktop
+  181  cd class 1
+  182  cd class1
+  183  cd Class 1
+  184  cd Class1
+  185  ls
+  186  cat Class 1
+  187  touch class 1
+  188  touch class 2
+  189  cd Desktop
+  190  cd Class 1
+  191  cd Class1
+  192  ls
+  193  cd propics
+  194  cd ../../
+  195  cd
+  196  su
+  197  userdel glinta
+  198  sudo userdel glinta
+  199  sudo su -
+  200  su glinta
+  201  cd 1
+  202  ls
+  203  fold
+  204  cd fold
+  205  vi new.txt
+  206  cat new.txt
+  207  vi new.txt
+  208  cd
+  209  echo hello
+  210  echo nice to meet you
+  211  echo nice to meet you >f1.txt
+  212  cat f1.txt
+  213  cd 1
+  214  fold
+  215  cd fold
+  216  ls
+  217  echo nice to meet you >f1.txt
+  218  cat f1.txt
+  219  cd ..
+  220  sudo useradd glinta
+  221  cat /etc/passwd
+  222  sudo passwd glinta
+  223  su glinta
+  224  groupadd group22
+  225  sudo groupadd group22
+  226  cd
+  227  sudo usermod -g group22 glinta
+  228  cat /etc/passwd
+  229  cat /etc
+  230  cat /etc/group
+  231  sudo usermod -a -G group22 glinta
+  232  cat /etc/group
+  233  cd /
+  234  ls
+  235  cd home
+  236  ls
+  237  cd
+  238  sudo adduser glintams
+  239  cd /
+  240  cd home
+  241  ls
+  242  cd glintams
+  243  cd
+  244  su glintams
+  245  sudo su -
+  246  cd 1
+  247  cd fold
+  248  ls
+  249  grep -i "nice" new.txt
+  250  grep -i "nice" *.*
+  251  grep -c "nice" *.*
+  252  grep -c "nice" ./1/ -R
+  253  cd
+  254  grep -c "nice" ./1/ -R
+  255  cd /
+  256  cd etc
+  257  sudo gedit sudoers
+  258  cd
+  259  su glintams
+  260  mkdir git
+  261  cd git
+  262  ls -al
+  263  git --version
+  264  git init
+  265  ls -al
+  266  touch f1.txt
+  267  git status
+  268  git add f1.txt
+  269  git status
+  270  git commit -m 'file added'
+  271  cd
+  272  cd Desktop
+  273  ls
+  274  cd Project
+  275  ls
+  276  cd git
+  277  git init
+  278  git add f1.txt
+  279  touch f1.txt
+  280  git add f1.txt
+  281  git status
+  282  git commit -m 'file added'
+  283  git config --global user.name glinta
+  284  git config --global user.name "glintams"
+  285  git config --global user.email "glintams@gmail.com"
+  286  git commit -m 'file added'
+  287  git log
+  288  touch f2.txt
+  289  git add f2.txt
+  290  git commit -m 'file 2 added'
+  291  ls
+  292  git log
+  293  git checkout 17a8115b511c4d1dcce012c636b1ee5bfb7ca4fd
+  294  ls
+  295  git checkout e8c38933864c8d90947e28a71966ed251a5dfe44
+  296  ls
+  297  git checkout master
+  298  history
+  299  history > 10dec2019
